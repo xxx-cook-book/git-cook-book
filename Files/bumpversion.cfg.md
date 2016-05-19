@@ -4,16 +4,45 @@
 
 ```
 [bumpversion]
-files = setup.py  # Files to change (default: [])
+files = setup.py
 commit = True
 tag = True
 current_version = 0.0.0
 ```
 
+* files = setup.py
+
+  * Files to change (default: [])
+
+  * Can't have comment such as
+
+    ```
+    files = setup.py  # Files to change (default: [])
+    ```
+
+    * Above will try to change current_version in such files
+
+      ```
+      [<bumpversion.ConfiguredFile:setup.py>, <bumpversion.ConfiguredFile:>, <bumpversion.ConfiguredFile:#>, <bumpversion.ConfiguredFile:Files>, <bumpversion.ConfiguredFile:to>, <bumpversion.ConfiguredFile:change>, <bumpversion.ConfiguredFile:(default:>, <bumpversion.ConfiguredFile:[])>]
+      ```
+
+  * files =' configuration is will be deprecated, please use [bumpversion:file:...]
+
+    ```
+    [bumpversion]
+    commit = True
+    tag = True
+    current_version = 0.0.0
+
+    [bumpversion:file:setup.py]
+    ```
+
 ## Installation
 
 ```shell
-pip install --upgrade bumpversion
+pip install bumpversion -U
+or
+pip install bumpversion --upgrade 
 ```
 
 ## Usage
