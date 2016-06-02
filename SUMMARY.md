@@ -11,6 +11,8 @@
   * check.sh
   * pep8.sh
   * requirements.txt
+* [Checkout](Checkout/README.md)
+  * [Previous Branch](Checkout/PreviousBranch.md)
 * [Rebase](Rebase/README.md)
   * [Insert Commit Between Old Commits](Rebase/InsertCommitBetweenOldCommits.md)
 
