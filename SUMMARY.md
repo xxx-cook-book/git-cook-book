@@ -12,7 +12,8 @@
   * pep8.sh
   * requirements.txt
 * [Checkout](Checkout/README.md)
-  * [Previous Branch](Checkout/PreviousBranch.md)
+  * [Previous Branch](Checkout/previous-branch.md)
+* [CherryPick](CherryPick/README.md)
+  * [Copy Patches Across Branches](CherryPick/copy-patches-across-branches.md)
 * [Rebase](Rebase/README.md)
-  * [Insert Commit Between Old Commits](Rebase/InsertCommitBetweenOldCommits.md)
-
+  * [Insert Commit Between Old Commits](Rebase/insert-commit-between-old-commits.md)
