@@ -11,6 +11,8 @@
   * check.sh
   * pep8.sh
   * requirements.txt
+* [Add](Add/README.md)
+  * [Add All](Add/add-all.md)
 * [Checkout](Checkout/README.md)
   * [Previous Branch](Checkout/previous-branch.md)
 * [CherryPick](CherryPick/README.md)
