@@ -13,6 +13,7 @@
   * requirements.txt
 * [Add](Add/README.md)
   * [Add All](Add/add-all.md)
+  * [Add Modified and Deleted](Add/add-modified-and-deleted.md)
 * [Checkout](Checkout/README.md)
   * [Previous Branch](Checkout/previous-branch.md)
 * [CherryPick](CherryPick/README.md)
