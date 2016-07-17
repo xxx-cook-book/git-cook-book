@@ -26,7 +26,7 @@ isort -rc -sp ./.isort.cfg .  # work
 
 ## Usage
 
-* See [iSort Imports](https://xxx-cook-book.gitbooks.io/python-cook-book/content/Import/iSortImports.html)
+* See [iSort Imports](https://xxx-cook-book.gitbooks.io/python-cook-book/content/Import/iSort-imports.html)
 
 ## References
 
