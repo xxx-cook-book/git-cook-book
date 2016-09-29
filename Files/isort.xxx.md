@@ -28,6 +28,12 @@ isort -rc -sp ./.isort.cfg .  # work
 
 * See [iSort Imports](https://xxx-cook-book.gitbooks.io/python-cook-book/content/Import/iSort-imports.html)
 
+## Waring
+
+* THIRDPARTY Difference
+  * ``pip install xxx``
+  * ``python setup.py install``
+
 ## References
 
 [1] isort@TT4IT, [isort — A Python utility / library to sort imports](http://tt4it.com/resources/discuss/2302/)
